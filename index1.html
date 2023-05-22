@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Beyond The Eye</title>
+          <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+       <header>
+                 <nav>
+                           <div class="logo">
+                                     <a href="#">
+                                               <img src="images/our_logo.png" alt="">
+                                     </a>
+
+                           </div>
+
+                           <div class="nav-right">
+                                  <div class="nav-links">
+                                         <a href="#">Home</a>
+                                         <a href="#about">About</a>
+                                         <a href="Sem4updates.html">Updates</a>
+                                         
+                                         <a href="start.html">Quiz</a>
+
+                                  </div>
+
+                                  <div class="search">
+                                          <div>
+                                                 <img src="images/search.png" alt="">
+                                                 <input type="text" placeholder="Search">
+                                          </div>
+
+                                  </div>
+
+                           </div>
+
+                          
+                 </nav>
+
+                 <div class="content">
+                     <h3>Beyond The Eye</h3>
+                     <p>The cosmos is within us. We are made of star-stuff. <br>We are a way for the universe to know itself.</p>
+                     <!-- <a href="#" class="btn">Login</a>
+                     <a href="#" class="btn">Register</a> -->
+
+                     <?php  if (isset($_SESSION['username'])) : ?>
+         
+                     <a class="btn" href="index.php?logout='1'">Logout</a>
+                     <?php endif ?>
+                 </div>
+       </header>
+
+       <!-- about section -->
+
+       <section class="about" id="about">
+
+              <h1 class="heading"> <span>about</span> us </h1>
+          
+              <div class="row">
+          
+                  <div class="image">
+                      <img src="images/pic1.jpg" alt="">
+                  </div>
+          
+                  <div class="content">
+                      <h3>What makes our website special?</h3>
+                      <p>Here you will find all the information, hypothetical theories and facts about the celestial objects.
+                        News and updates are displayed on a particular section of our website.
+                        We are hosting many events, quizzes, games, etc. related to astronomy.
+                        You will find all the information about colleges which are hosting quizzes related to astronomy.
+                    </p>
+                      
+                      <a href="#" class="btn">learn more</a>
+                  </div>
+          
+              </div>
+          
+          </section>
+
+           
+          <!-- features section -->
+
+          <section class="features" id="features">
+
+            
+        
+            <div class="box-container">
+        
+                <div class="box">
+                    <img src="images/news1.jpg" alt="">
+                    <a href="#" class="btn">News</a>
+                </div>
+        
+                <div class="box">
+                    <img src="images/article.jpg" alt="">
+                    <a href="#" class="btn">Articles</a>
+                </div>
+        
+                <div class="box">
+                    <img src="images/background2.jpg" alt="">
+                    <a href="Images.html" class="btn">Images</a>
+                </div>
+        
+            </div>
+        
+        </section>
+
+
+          
+          
+</body>
+</html>
